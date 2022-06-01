@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     let view = JKSwitch()
     view.barTintColor = .red
     view.circleColor = .orange
-    view.addTarget(self, action: #selector(changeSwitchValue), for: .valueChanged)
     view.translatesAutoresizingMaskIntoConstraints = false
     return view
   }()
