@@ -32,6 +32,8 @@ final class JKSwitch: UIControl {
   // MARK: Properties
   var isOn = false {
     didSet {
+      self.sendActions(for: .valueChanged)
+      
       UIView.animate(
         withDuration: Constant.duration,
         delay: 0,
@@ -107,7 +109,6 @@ final class JKSwitch: UIControl {
   override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
     super.touchesEnded(touches, with: event)
     self.isOn = !self.isOn
-    self.sendActions(for: .valueChanged)
   }
 }
 
