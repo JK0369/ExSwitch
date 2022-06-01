@@ -7,8 +7,6 @@
 
 import UIKit
 
-// UIControl 서브클래싱 (touchesBegan, touchesEnded 사용)
-
 final class JKSwitch: UIControl {
   private enum Constant {
     static let duration = 0.25
@@ -109,6 +107,7 @@ final class JKSwitch: UIControl {
   override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
     super.touchesEnded(touches, with: event)
     self.isOn = !self.isOn
+    self.sendActions(for: .valueChanged)
   }
 }
 
