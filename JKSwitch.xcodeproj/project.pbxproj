@@ -13,6 +13,7 @@
 		4A769F2128475C43000C36C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A769F1F28475C43000C36C3 /* Main.storyboard */; };
 		4A769F2328475C45000C36C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A769F2228475C45000C36C3 /* Assets.xcassets */; };
 		4A769F2628475C45000C36C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A769F2428475C45000C36C3 /* LaunchScreen.storyboard */; };
+		4A769F2E28475C58000C36C3 /* JKSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A769F2D28475C58000C36C3 /* JKSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4A769F2228475C45000C36C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A769F2528475C45000C36C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A769F2728475C45000C36C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A769F2D28475C58000C36C3 /* JKSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKSwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4A769F1928475C43000C36C3 /* AppDelegate.swift */,
 				4A769F1B28475C43000C36C3 /* SceneDelegate.swift */,
 				4A769F1D28475C43000C36C3 /* ViewController.swift */,
+				4A769F2D28475C58000C36C3 /* JKSwitch.swift */,
 				4A769F1F28475C43000C36C3 /* Main.storyboard */,
 				4A769F2228475C45000C36C3 /* Assets.xcassets */,
 				4A769F2428475C45000C36C3 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A769F2E28475C58000C36C3 /* JKSwitch.swift in Sources */,
 				4A769F1E28475C43000C36C3 /* ViewController.swift in Sources */,
 				4A769F1A28475C43000C36C3 /* AppDelegate.swift in Sources */,
 				4A769F1C28475C43000C36C3 /* SceneDelegate.swift in Sources */,
